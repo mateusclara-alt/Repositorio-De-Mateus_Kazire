@@ -1,0 +1,507 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erva-Mate no Paraná | Mateus Ferreira</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7f3;
+    color:#333;
+    line-height:1.7;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://drive.google.com/u/0/drive-viewer/AKGpihbXfYRTf5HBewrs6zUSeJ52OW6oCc8gZrRCwIsJW5Cip-31SSLNYjvZy1ha_3XDmGMygvoKgIVCbSWLpP8-ti4XUa0jYkD2Iw=s1600-rw-v1?auditContext=forDisplay');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero{
+    max-width:900px;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.3rem;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#0c5a2c;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    flex-wrap:wrap;
+}
+
+nav ul li a{
+    display:block;
+    padding:18px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    background:#0a4722;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.titulo{
+    text-align:center;
+    color:#0c5a2c;
+    margin-bottom:40px;
+    font-size:2.5rem;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0c5a2c;
+    margin-bottom:10px;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.galeria img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.timeline{
+    border-left:5px solid #0c5a2c;
+    padding-left:30px;
+}
+
+.evento{
+    margin-bottom:35px;
+}
+
+.evento h3{
+    color:#0c5a2c;
+}
+
+.tabela{
+    overflow-x:auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th{
+    background:#0c5a2c;
+    color:white;
+}
+
+table th,table td{
+    padding:15px;
+    border:1px solid #ddd;
+}
+
+.curiosidades{
+    background:#e8f5e9;
+}
+
+footer{
+    background:#08371b;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+footer h3{
+    margin-bottom:10px;
+}
+
+.botao{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#7cb342;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.botao:hover{
+    background:#689f38;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.hero p{
+    font-size:1rem;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<nav>
+<ul>
+<li><a href="#inicio">Início</a></li>
+<li><a href="#historia">História</a></li>
+<li><a href="#producao">Produção</a></li>
+<li><a href="#beneficios">Benefícios</a></li>
+<li><a href="#economia">Economia</a></li>
+<li><a href="#curiosidades">Curiosidades</a></li>
+<li><a href="#galeria">Galeria</a></li>
+</ul>
+</nav>
+
+<header id="inicio">
+<div class="hero">
+<h1>Erva-Mate do Paraná</h1>
+<p>
+Conheça a história, cultura, produção, benefícios e a importância
+econômica da erva-mate para o estado do Paraná.
+</p>
+
+<a href="#historia" class="botao">Explorar Conteúdo</a>
+
+</div>
+</header>
+
+<section id="historia">
+
+<h2 class="titulo">História da Erva-Mate no Paraná</h2>
+
+<div class="container">
+
+<div class="card">
+<h3>Origem Indígena</h3>
+<p>
+Muito antes da chegada dos europeus, os povos indígenas guaranis
+já utilizavam a erva-mate como bebida energética e medicinal.
+A planta era considerada sagrada e fazia parte da cultura local.
+</p>
+</div>
+
+<div class="card">
+<h3>Período Colonial</h3>
+<p>
+Durante a colonização, a erva-mate começou a ser comercializada
+em diferentes regiões da América do Sul, tornando-se um importante
+produto econômico.
+</p>
+</div>
+
+<div class="card">
+<h3>Ciclo da Erva-Mate</h3>
+<p>
+Entre os séculos XIX e XX, a erva-mate foi um dos principais
+motores econômicos do Paraná, contribuindo para o desenvolvimento
+das cidades, estradas e ferrovias.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="titulo">Linha do Tempo</h2>
+
+<div class="timeline">
+
+<div class="evento">
+<h3>Antes de 1500</h3>
+<p>Uso da erva-mate pelos povos indígenas.</p>
+</div>
+
+<div class="evento">
+<h3>Século XVII</h3>
+<p>Expansão do consumo da erva-mate na América do Sul.</p>
+</div>
+
+<div class="evento">
+<h3>Século XIX</h3>
+<p>Grande crescimento econômico da atividade ervateira no Paraná.</p>
+</div>
+
+<div class="evento">
+<h3>Século XX</h3>
+<p>Modernização da produção e expansão para mercados externos.</p>
+</div>
+
+<div class="evento">
+<h3>Atualidade</h3>
+<p>O Paraná é líder nacional na produção de erva-mate.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="producao">
+
+<h2 class="titulo">Produção no Paraná</h2>
+
+<div class="container">
+
+<div class="card">
+<h3>Liderança Nacional</h3>
+<p>
+O Paraná é reconhecido como o maior produtor brasileiro de erva-mate,
+sendo referência em qualidade e sustentabilidade.
+</p>
+</div>
+
+<div class="card">
+<h3>Um novo ciclo</h3>
+<p>
+    O ciclo comercial do mate se desenvolveu em Paranaguá, a partir de 1820 e no primeiro Planalto, em Curitiba e nos Campos Gerais, a partir de 1873.
+
+</p>
+</div>
+
+<div class="card">
+<h3>A Rota da Erva-Mate</h3>
+<p>
+    O rio Iguaçu serviu como hidrovia no final do século XIX e início do XX, ligando Curitiba ao interior do estado, passando por cidades como Porto Amazonas, São Mateus do Sul, União da Vitória e Porto Vitória. Pessoas e mercadorias, principalmente a erva-mate, eram transportadas por suas águas.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="beneficios">
+
+<h2 class="titulo">Benefícios da Erva-Mate</h2>
+
+<div class="container">
+
+<div class="card">
+<h3>Energia Natural</h3>
+<p>
+Possui cafeína natural que auxilia na disposição física e mental.
+</p>
+</div>
+
+<div class="card">
+<h3>Antioxidantes</h3>
+<p>
+Contém compostos que ajudam a combater os radicais livres.
+</p>
+</div>
+
+<div class="card">
+<h3>Vitaminas e Minerais</h3>
+<p>
+Fonte de vitaminas do complexo B, magnésio, potássio e manganês.
+</p>
+</div>
+
+<div class="card">
+<h3>Digestão</h3>
+<p>
+Tradicionalmente utilizada para auxiliar o funcionamento digestivo.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="economia">
+
+<h2 class="titulo">Importância Econômica</h2>
+
+<div class="tabela">
+
+<table>
+
+<tr>
+<th>Setor</th>
+<th>Importância</th>
+</tr>
+
+<tr>
+<td>Produção Rural</td>
+<td>Geração de renda para milhares de famílias.</td>
+</tr>
+
+<tr>
+<td>Indústria</td>
+<td>Beneficiamento e industrialização da erva-mate.</td>
+</tr>
+
+<tr>
+<td>Comércio</td>
+<td>Distribuição nacional e internacional.</td>
+</tr>
+
+<tr>
+<td>Turismo</td>
+<td>Valorização da cultura e gastronomia regional.</td>
+</tr>
+
+</table>
+
+</div>
+
+</section>
+
+<section id="curiosidades" class="curiosidades">
+
+<h2 class="titulo">Curiosidades</h2>
+
+<div class="container">
+
+<div class="card">
+<h3>Chimarrão</h3>
+<p>
+O chimarrão é uma das formas mais tradicionais de consumo da erva-mate.
+</p>
+</div>
+
+<div class="card">
+<h3>Araucárias</h3>
+<p>
+Muitos ervais são cultivados em áreas com araucárias, símbolo do Paraná.
+</p>
+</div>
+
+<div class="card">
+<h3>Exportação</h3>
+<p>
+A erva-mate produzida no Paraná é exportada para diversos países.
+</p>
+</div>
+
+<div class="card">
+<h3>Patrimônio Cultural</h3>
+<p>
+A cultura da erva-mate faz parte da identidade histórica paranaense.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="galeria">
+
+<h2 class="titulo">Galeria</h2>
+
+<div class="galeria">
+
+<img src="/home/escola/1 PARTE/ERVA MATE ALESSA.png">
+
+<img src="file:///home/escola/1%20PARTE/SAM_2096.JPG">
+
+<img src="file:///home/escola/1%20PARTE/P_20170622_135349.jpg">
+
+<img src="file:///home/escola/1%20PARTE/SAM_2243.JPG">
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Mateus Ferreira</h3>
+
+<p>
+Site educativo desenvolvido sobre a Erva-Mate no Paraná.
+</p>
+
+<p>
+© 2026 - Todos os direitos reservados.
+</p>
+
+</footer>
+
+</body>
+</html>
+</footer>
+
+<script>
+
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+
+link.addEventListener('click', function(e){
+
+e.preventDefault();
+
+const destino = document.querySelector(this.getAttribute('href'));
+
+destino.scrollIntoView({
+behavior:'smooth'
+});
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
